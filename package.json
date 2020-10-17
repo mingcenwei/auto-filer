@@ -1,0 +1,50 @@
+{
+	"name": "auto-filer",
+	"version": "0.1.0",
+	"description": "Auto Filer 饱和式出入监狱自动备案工具",
+	"keywords": [
+		"filing",
+		"record",
+		"covid",
+		"covid19"
+	],
+	"homepage": "https://github.com/mingcenwei/auto-filer",
+	"bugs": {
+		"email": "wmingcen@gmail.com",
+		"url": "https://github.com/mingcenwei/auto-filer/issues"
+	},
+	"engines": {
+		"node": "^14.13.1"
+	},
+	"main": ".dist/index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc --build debug.tsconfig.json",
+		"prepack": "tsc --build release.tsconfig.json"
+	},
+	"author": "sAy",
+	"license": "Unlicense",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mingcenwei/auto-filer.git"
+	},
+	"files": [
+		"package.json",
+		"UNLICENSE.txt",
+		"README.html",
+		"dist/"
+	],
+	"devDependencies": {
+		"@tsconfig/recommended": "^1.0.1",
+		"@types/node": "^14.10.3",
+		"@typescript-eslint/eslint-plugin": "^4.1.1",
+		"@typescript-eslint/parser": "^4.1.1",
+		"eslint": "^7.9.0",
+		"prettier": "^2.1.2",
+		"typescript": "^4.0.2"
+	},
+	"dependencies": {
+		"cookie-pusher": "^0.1.2"
+	}
+}
