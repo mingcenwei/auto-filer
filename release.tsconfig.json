@@ -55,7 +55,7 @@
 		/* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
 		"isolatedModules": true,
 		/* Redirect output structure to the directory. */
-		"outDir": "dist/",
+		"outDir": "dist/nodejs/",
 		/* Concatenate and emit output to single file. */
 		//"outFile": "build/output.js",
 		/* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
